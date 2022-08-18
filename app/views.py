@@ -43,7 +43,8 @@ def address(request):
 
 
 def orders(request):
-    return render(request, 'app/orders.html')
+    if True:
+        return render(request, 'app/orders.html')
 
 
 # def change_password(request):
